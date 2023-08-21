@@ -128,3 +128,96 @@ body {
 .form .link a:hover {
     text-decoration: underline;
 }
+
+/* Users Area CCS Code */
+.users {
+    padding: 25px 30px;
+}
+
+.users header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.wrapper img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.users header .content {
+    display: flex;
+}
+
+.users header .content img {
+    height: 50px;
+    width: 50px;
+}
+
+.users header .details {
+    margin-left: 15px;
+}
+
+.users header .details span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.users header .logout {
+    color: #fff;
+    background: #333;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #333;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.users header .logout:hover {
+    background: #fff;
+    color: #333;
+}
+
+.users .search {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.users .search .text {
+    font-size: 18px;
+}
+
+.users .search input {
+    position: absolute;
+    height: 42px;
+    width: calc(100% - 50px);
+    border: 1px solid #ccc;
+    font-size: 17px;
+    padding: 0 13px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.users .search button {
+    position: relative;
+    color: #fff;
+    height: 42px;
+    width: 47px;
+    border-radius: 5px;
+    background: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.users .search button:hover {
+    background: #fff;
+    color: #333;
+    transform: scale(1.02);
+}

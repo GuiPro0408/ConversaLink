@@ -11,29 +11,24 @@
 <body>
     <!-- This is the HTML markup for the signup page of the ConversaLink website. -->
     <div class="wrapper">
-        <section class="form login">
-            <header>ConversaLink</header>
-
-            <form action="#">
-                <div class="error-txt">This is an error message!</div>
-
-                <div class="field input">
-                    <label for="">Email Address</label>
-                    <input type="email" placeholder="Enter your email" required>
+        <section class="users">
+            <header>
+                <div class="content">
+                    <img src="img\profil.png" alt="">
+                    <div class="details">
+                        <span>Coding Nepal</span>
+                        <p>Active now</p>
+                    </div>
                 </div>
 
-                <div class="field input">
-                    <label for="">Password</label>
-                    <input type="password" placeholder="Enter your password" required>
-                    <i class="fas fa-eye"></i>
-                </div>
+                <a href="#" class="logout">Logout</a>
+            </header>
 
-                <div class="field button">
-                    <input type="submit" value="Continue to Chat">
-                </div>
-            </form>
-
-            <div class="link">Not yet signed up? <a href="index.html">Signup now</a></div>
+            <div class="search">
+                <span class="text">Select an user to start chat</span>
+                <input type="text" placeholder="Enter name to search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
         </section>
     </div>
 </body>
